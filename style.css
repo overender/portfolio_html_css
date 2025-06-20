@@ -8,7 +8,7 @@ body {
   scroll-behavior: smooth;
 
   /* Background pattern */
-  background-image: url('meso-bg-pattern.svg'),
+  background-image: url('images/meso-bg-pattern.svg'),
                     radial-gradient(circle at 20% 40%, rgba(255, 255, 255, 0.02), transparent),
                     radial-gradient(circle at 80% 60%, rgba(255, 255, 255, 0.02), transparent);
   background-repeat: repeat;
