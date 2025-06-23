@@ -252,11 +252,7 @@ h2 {
   max-width: 300px;
 }
 
-.card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
-  background-color: #292929;
-}
+
 
 .card h3 {
   margin-top: 0;
@@ -410,4 +406,17 @@ footer {
   background-color: #c4df9b;
   transform: translateY(-2px);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.card-link:hover .card {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  background-color: #292929;
 }
